@@ -1,6 +1,7 @@
 import ButtonMUI from "./components/ButtonMUI";
 import ContainerMUI from "./components/ContainerMUI";
 import LayoutMUI from "./components/LayoutMUI";
+import { TextFieldMUI } from "./components/TextFieldMUI";
 import TypographyMUI from "./components/TypographyMUI";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <LayoutMUI />
       <TypographyMUI />
       <ButtonMUI />
+      <TextFieldMUI />
     </>
   );
 }
