@@ -1,3 +1,5 @@
+import { CssBaseline } from "@mui/material";
+import AppBarMUI from "./components/AppBarMUI";
 import ButtonMUI from "./components/ButtonMUI";
 import ContainerMUI from "./components/ContainerMUI";
 import LayoutMUI from "./components/LayoutMUI";
@@ -8,6 +10,8 @@ import TypographyMUI from "./components/TypographyMUI";
 function App() {
   return (
     <>
+      <CssBaseline />
+      <AppBarMUI />
       <ContainerMUI />
       <LayoutMUI />
       <TypographyMUI />
