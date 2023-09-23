@@ -7,6 +7,7 @@ import MenuMUI from "./components/MenuMUI";
 import { TextFieldMUI } from "./components/TextFieldMUI";
 import TypographyMUI from "./components/TypographyMUI";
 import GridMUI from "./components/GridMUI";
+import StyleMUI from "./components/StyleMUI";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <ButtonMUI />
       <TextFieldMUI />
       <MenuMUI /> */}
-      <GridMUI />
+      {/* <GridMUI /> */}
+      <StyleMUI />
     </>
   );
 }
