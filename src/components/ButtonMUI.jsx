@@ -51,6 +51,10 @@ const ButtonMUI = () => {
           <Button variant="contained" color="success">
             Success
           </Button>
+          <Button variant="contained" color="myCustomColor">
+            My Custom Color
+          </Button>
+
           {/* <Button variant="contained" color="myCustomColor">
           Custom Color
         </Button> */}
