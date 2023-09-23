@@ -6,18 +6,20 @@ import LayoutMUI from "./components/LayoutMUI";
 import MenuMUI from "./components/MenuMUI";
 import { TextFieldMUI } from "./components/TextFieldMUI";
 import TypographyMUI from "./components/TypographyMUI";
+import GridMUI from "./components/GridMUI";
 
 function App() {
   return (
     <>
-      <CssBaseline />
+      {/* <CssBaseline />
       <AppBarMUI />
       <ContainerMUI />
       <LayoutMUI />
       <TypographyMUI />
       <ButtonMUI />
       <TextFieldMUI />
-      <MenuMUI />
+      <MenuMUI /> */}
+      <GridMUI />
     </>
   );
 }
